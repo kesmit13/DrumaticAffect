@@ -29,7 +29,7 @@ The schematic for the Drumatic Affect device is shown below.
 ![Schematic diagram](DrumaticAffect_bb.png)
 
 This circuit includes two relays driven by an Arduino Nano and the code in this repository.
-The first relay is used to send the tap signal to the FSX3 footswitch input. A 3PST switch can
+The first relay is used to send the tap signal to the FSX3 footswitch input. A 2P3T switch can
 be used to select which song part to select. This requires the pedal to be in **Direct Part**
 mode which allows you to select the verse, chorus, and bridge directly using each of the three
 buttons on the FSX3 switch. You can also select the chorus pole of the switch and run the 
