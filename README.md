@@ -46,3 +46,9 @@ The rest of the circuit is fairly straightforward. There is a rotary encoder wit
 switch (shown as two separate components in this diagram). The rotary encoder is used to select
 the tempo, then pushing the switch sends three "taps" to the FSX3 input to select the song
 part and set the tempo. The second relay then sends a signal to the pedal to start the song.
+
+I did find that cheap rotary encoders are terribly noisy and you'll get stray signals on both
+the rotary switch as well as the push button switch; and even worse, you'll get stray signals
+on the push button switch while using the rotary switch. I ended up buying [rotary encoders
+with built-in debouncing](https://www.tindie.com/products/fabteck/24-steps-rotary-encoder-and-debouncing-circuit/)
+(as well as use debouncing in the software).
