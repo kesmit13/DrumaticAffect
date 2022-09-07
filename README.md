@@ -21,6 +21,8 @@ tap that tempo, but it's somewhat in-exact.
 The idea came about to have a hardware device send the tap signal rather than a person. This would
 give a very exact tempo that could be set simply be dialing in the correct tempo on the device
 and having it send emulated taps to the footswitch input. That device is the **Drumatic Affect**.
+I came across [another project](https://www.instructables.com/Arduino-Metronome/) that had some 
+overlap, started with that and continued to modify it until it fit the new purpose.
 
 ## Schematic
 
