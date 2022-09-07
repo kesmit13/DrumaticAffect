@@ -51,4 +51,4 @@ I did find that cheap rotary encoders are terribly noisy and you'll get stray si
 the rotary switch as well as the push button switch; and even worse, you'll get stray signals
 on the push button switch while using the rotary switch. I ended up buying [rotary encoders
 with built-in debouncing](https://www.tindie.com/products/fabteck/24-steps-rotary-encoder-and-debouncing-circuit/)
-(as well as use debouncing in the software).
+(as well as using debouncing in the software).
