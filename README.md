@@ -22,13 +22,13 @@ The idea came about to have a hardware device send the tap signal rather than a 
 give a very exact tempo that could be set simply be dialing in the correct tempo on the device
 and having it send emulated taps to the footswitch input. That device is the **Drumatic Affect**.
 
-# Schematic
+## Schematic
 
 The schematic for the Drumatic Affect device is shown below.
 
 ![Schematic diagram](DrumaticAffect_bb.png)
 
-This circuit includes two relays driven by an Arduino Uno and the code in this repository.
+This circuit includes two relays driven by an Arduino Nano and the code in this repository.
 The first relay is used to send the tap signal to the FSX3 footswitch input. A 3PST switch can
 be used to select which song part to select. This requires the pedal to be in **Direct Part**
 mode which allows you to select the verse, chorus, and bridge directly using each of the three
@@ -52,3 +52,13 @@ the rotary switch as well as the push button switch; and even worse, you'll get 
 on the push button switch while using the rotary switch. I ended up buying [rotary encoders
 with built-in debouncing](https://www.tindie.com/products/fabteck/24-steps-rotary-encoder-and-debouncing-circuit/)
 (as well as using debouncing in the software).
+
+### Parts List
+
+* Arduino Nano
+* Rotary encoder with push-button switch
+* 128X64 OLED LCD Display
+* 2 - 5V relays
+* 2 - 1N4001 diodes
+* 2P3T rotary switch
+* SPST toggle switch
