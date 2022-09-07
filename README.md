@@ -18,7 +18,7 @@ Unfortunately, this is the one thing that the SDRUM unit can't do. There is no w
 the exact tempo. You can get in-the-ballpark by using a metronome to set a tempo then trying to
 tap that tempo, but it's somewhat in-exact.
 
-The idea came about to have a hardware device send the tap signal rather than a person. This woould
+The idea came about to have a hardware device send the tap signal rather than a person. This would
 give a very exact tempo that could be set simply be dialing in the correct tempo on the device
 and having it send emulated taps to the footswitch input. That device is the **Drumatic Affect**.
 
