@@ -62,3 +62,10 @@ with built-in debouncing](https://www.tindie.com/products/fabteck/24-steps-rotar
 * 2 - 1N4001 diodes
 * 2P3T rotary switch
 * SPST toggle switch
+
+## What's up with the name?
+
+The word "drumatic" is a play on "automatic drum". The word "affect" is used because it's 
+effect pedal, but this device causes the change, it doesn't respond to the change, so "affect"
+seems like a better description of it's behavior than "effect". And, of course, the whole
+name is a play on the phrase "dramatic effect".
