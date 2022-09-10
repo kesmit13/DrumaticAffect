@@ -24,6 +24,30 @@ and having it send emulated taps to the footswitch input. That device is the **D
 I came across [another project](https://www.instructables.com/Arduino-Metronome/) that had some 
 overlap, started with that and continued to modify it until it fit the new purpose.
 
+## Requirements
+
+I had a pretty long list of requirements for a drum machine that would fit my needs. I tried out
+many different solutions and nothing existed that could do everything I wanted. Here is a 
+comparison table of many possible solutions.
+
+| Feature                               | SDRUM + Drumatic Affect | SDRUM | Rock Drummer App | Beat Buddy | Alesis SR-16     | Drum Tracks |
+|---------------------------------------|-------------------------|-------|------------------|------------|------------------|-------------|
+| Battery powered                       | yes*                    | yes*  | yes              | yes*       | yes*             | yes         |
+| Song selector in arm's reach          | yes (with stand)        | no*   | yes (with stand) | no         | yes (with stand) | yes         |
+| Able to set specific tempo            | yes                     | no    | yes              | yes        | yes              | yes         |
+| Direct access to song parts           | yes                     | yes*  | yes/no           | no         | yes (only 2)     | no          |
+| Start and stop with footswitch        | yes                     | no*   | yes              | yes        | yes              | yes         |
+| Fills                                 | yes                     | yes   | yes              | yes        | yes              | no          |
+| Easily programmable                   | yes                     | yes   | no               | yes        | no               | no          |
+| Programs beat patterns not just songs | yes                     | yes   | yes              | no         | yes              | no          |
+| Fast setup at gigs                    | yes                     | yes   | no               | yes        | yes              | yes         |
+| Count-in                              | yes                     | yes   | yes              | yes        | no               | yes         |
+| Mute on-demand                        | yes                     | yes   | no               | no         | no               | no          |
+
+Some of the requirements are marked with exceptions. Such as the battery powered requirement can be filled 
+with a 9v guitar effect pedal battery pack on most devices. The SDRUM does have many of the requirements, 
+but some can not be filled at the same time depending on which footswitch mode you use.
+
 ## Schematic
 
 The schematic for the Drumatic Affect device is shown below.
